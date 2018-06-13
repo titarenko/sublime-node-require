@@ -51,8 +51,8 @@ class RequireNodeCommand(sublime_plugin.TextCommand):
                     False: settings.get('source_js_existing_line')
                 },
                 "text.html.vue": {
-                    True:  settings.get('source_js_new_line'),
-                    False: settings.get('source_js_existing_line')
+                    True:  settings.get('source_vue_new_line'),
+                    False: settings.get('source_vue_existing_line')
                 }
             }
 

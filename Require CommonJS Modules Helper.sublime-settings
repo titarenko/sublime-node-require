@@ -4,6 +4,9 @@
     "source_js_new_line": "var {0} = require({1});",
     "source_js_existing_line": "require({1})",
 
+    "source_vue_new_line": "import {0} from {1}",
+    "source_vue_existing_line": "require({1})",
+
     "source_coffee_new_line": "{0} = require {1}",
     "source_coffee_existing_line": "require {1}",
 
